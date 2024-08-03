@@ -2,7 +2,7 @@ name: supabase_database_external
 
 networks:
   default:
-    name: "testnet"
+    name: ${PRIVATE_NET} # "testnet"
     external: true
 
 services:
