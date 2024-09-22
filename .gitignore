@@ -3,5 +3,8 @@ volumes/storage
 .env
 test.http
 docker-compose.override.yml
-postgres-data/
+postgres-data/*
+postgres-data/.*
+pg-data/*
+pg-data/.*
 # db-config/
